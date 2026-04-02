@@ -39,6 +39,9 @@
 
 | Tool | Cost | Notes |
 | :---- | :---- | :---- |
+| [Google Gemini for Students](https://gemini.google/students/) | Free with edu email | Gemini Pro access for students; chat, code generation, research |
+| [Google Antigravity](https://antigravity.google/) | Free | AI-powered IDE with built-in agents (Gemini, Claude); editor + manager views for parallel agent workflows |
+| [OpenAI Codex](https://openai.com/codex/) | Included with ChatGPT Plus/Edu | AI coding agent that plans, writes, tests, and fixes code in a cloud sandbox |
 | Google Colab + Data Science Agent | Free (Colab Pro free for some students) | Gemini-powered agent generates notebooks from natural language |
 | GitHub Copilot (Student Plan) | Free for verified students | AI code completion in VS Code; apply via [GitHub Education Pack](https://education.github.com/pack) |
 | Jupyter AI (`%%ai` magic) | Free | Prompt LLMs from inside notebook cells; supports Claude, OpenAI, local models |
@@ -57,6 +60,8 @@
 
 ### Free Online Courses
 
+* freeCodeCamp Python Curriculum — free interactive Python course with projects. [https://www.freecodecamp.org/learn/python-v9/](https://www.freecodecamp.org/learn/python-v9/)
+* Software Carpentry Lessons — free workshops on Python, Git, SQL, and the Unix shell for researchers. [https://software-carpentry.org/lessons/](https://software-carpentry.org/lessons/)
 * AI Python for Beginners (DeepLearning.AI, Andrew Ng) — learn Python with AI chatbot support. [https://www.deeplearning.ai/short-courses/ai-python-for-beginners/](https://www.deeplearning.ai/short-courses/ai-python-for-beginners/)
 * ChatGPT Prompt Engineering for Developers (DeepLearning.AI) — free 1-2 hour short course. [https://www.deeplearning.ai/courses/](https://www.deeplearning.ai/courses/)
 * Generative AI for Everyone (DeepLearning.AI / Coursera) — non-technical introduction. [https://www.deeplearning.ai/courses/generative-ai-for-everyone/](https://www.deeplearning.ai/courses/generative-ai-for-everyone/)

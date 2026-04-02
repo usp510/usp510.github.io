@@ -10,6 +10,8 @@
 
 **Instructor**: Dr. Liming Wang (lmwang@pdx.edu)
 
+**Course Website**: [https://usp510.github.io/](https://usp510.github.io/)
+
 This course introduces urban data science, an interdisciplinary approach to understanding, managing, and designing the city using data-driven theories and methods. Urban data science builds on the science and technologies of information processing, information systems, computer science, and statistics to develop applications to cities.
 
 In this project-based class, students have an opportunity to develop applications that combine technical skills and domain knowledge and use information processing, analysis, and presentation to support problem solving in cities. It will introduce students to basic coding, data processing and analysis, visualization and mapping. Students will also learn to work effectively with large language models (LLMs) and AI agents as tools to accelerate data science workflows — from writing and debugging code to exploring data and generating visualizations.
@@ -81,7 +83,7 @@ This course teaches you to work with AI tools as part of the data science workfl
 
 | Week | Date | Topic | Readings |
 | :---- | :---- | :---- | :---- |
-| W1 | 04/02 | Overview, Computer Setup, Introduction to Python | Yu & Barter, [Chapter 2: The Data Science Life Cycle](https://vdsbook.com/02-dslc); Downey, [Chapter 1](https://allendowney.github.io/ThinkPython/chap01.html) |
+| W1 | 04/02 | Overview, Computer Setup, [Introduction to Python](week1_intro_python.ipynb) | Yu & Barter, [Chapter 2: The Data Science Life Cycle](https://vdsbook.com/02-dslc); Downey, [Chapter 1](https://allendowney.github.io/ThinkPython/chap01.html) |
 | W2 | 04/09 | Learning and working with LLMs and AI agents | Karpathy, [How I Use LLMs](https://www.youtube.com/watch?v=EWvNQjAaOHw); Evkaya & de Carvalho, [Using ChatGPT for Data Science Analyses](https://hdsr.mitpress.mit.edu/pub/u6wp4cy3/release/2) (HDSR, 2026) |
 | W3 | 04/16 | All about data: Data import/export, cleaning & processing | Yu & Barter, [Chapter 4: Data Preparation](https://vdsbook.com/04-data-prep); McKinney, [Chapters 6-8](https://wesmckinney.com/book/accessing-data) |
 | W4 | 04/23 | Workflow & project management | Yu & Barter, [Chapter 3: Setting Up Your Data Science Project](https://vdsbook.com/03-project-setup); Turrell, [Workflow chapters](https://aeturrell.github.io/python4DS/) |
@@ -135,23 +137,15 @@ DataCamp: Students will be able to take DataCamp courses free of charge courtesy
 | Spatial analysis | `geopandas`, `folium`, `contextily` | Vector data, interactive maps, basemaps |
 | Dashboards | `streamlit` | Pure Python dashboards with free cloud hosting |
 
-## **Important/required syllabi statements and other resources**
-
-**ACCESS AND INCLUSION FOR STUDENTS WITH DISABILITIES**
-
-PSU values diversity and inclusion; My goal is to create a learning environment that is accessible, equitable, inclusive, and welcoming. I am committed to fostering mutual respect and full participation for all students. If any aspects of instruction or course design result in barriers to your inclusion or learning, please notify me. Additionally, the Disability Resource Center (DRC) provides reasonable accommodations for students who encounter barriers in the learning environment. The DRC works with students who have physical, learning, cognitive, mental health, sensory, chronic illness, and other disabilities.
-
-If you have, or think you may have, a disability that may affect your work in this class and feel you need accommodations, contact the Disability Resource Center to schedule an appointment and initiate a conversation about reasonable accommodations.
-
-If you already have accommodations, please contact me to make sure that I have received your DRC Faculty Notification Email so we can discuss your accommodations.
-
-The DRC is located in 116 Smith Memorial Student Union, Suite 116. You can also contact the DRC at 503-725-4150 or, drc@pdx.edu. Visit the DRC online at https://www.pdx.edu/disability-resource-center.
-
-**Title IX support and resources**
-
-Portland State is committed to providing an environment free of all forms of prohibited discrimination and sexual harassment (sexual assault, domestic and dating violence, and gender or sex-based harassment and stalking). If you have experienced any form of gender or sex-based discrimination or sexual harassment, know that help and support are available. Information about PSU's support services on campus, including confidential services and reporting options, can be found on PSU's Sexual Misconduct Prevention and Response website at: http://www.pdx.edu/sexual-assault/get-help or you may call a confidential IPV Advocate at 503-725-5672 or schedule Online at https://psuwrc.youcanbook.me. You may report any incident of discrimination or discriminatory harassment, including sexual harassment, to:
-
-* PSU's Title IX Coordinator: Julie Caron by calling 503-725-4410, via email at titleixcoordinator@pdx.edu or in person at Richard and Maureen Neuberger Center (RMNC), 1600 SW 4th Ave, Suite 830
-* Deputy Title IX Coordinator: Yesenia Gutierrez by calling 503-725-4413, via email at yesenia.gutierrez.gdi@pdx.edu or in person at RMNC, 1600 SW 4th Ave, Suite 830
-
-Please be aware that all PSU faculty members and instructors are required to report information of an incident that may constitute prohibited discrimination, including sexual harassment and sexual violence. This means that if you tell me about a situation of sexual harassment or sexual violence that may have violated university policy or student code of conduct, I have to share the information with my supervisor, the University's Title IX Coordinator or the Office of the Dean of Student Life. However, the Title IX Coordinators will keep the information confidential and refer you to a confidential advocate. For more information about Title IX please complete the required student module Creating a Safe Campus in your D2L.
+## **PSU Policies and Resources**
+### Academic Integrity & Grading Policies
+- [PSU Academic Calendar](https://www.pdx.edu/registration/academic-calendar)
+- [PSU Grading System](https://www.pdx.edu/registration/grading-system)
+- [Student Code of Conduct](https://www.pdx.edu/dos/psu-student-code-conduct#AcademicDishonesty)
+- [Incomplete Grades Policy](https://www.pdx.edu/registration/incomplete-grades)
+### Student Support Resources
+- [How to Find Help at PSU](https://sites.google.com/pdx.edu/how-to-find-help-at-psu/home)
+- [Access and Inclusion for Students with Disabilities](https://www.pdx.edu/disability-resource-center/information-students)
+- [Understanding Sexual Misconduct](https://www.pdx.edu/sexual-assault/)
+- [Title IX Reporting](https://www.pdx.edu/diversity/title-ix)
+- [Religious Accommodations](https://www.pdx.edu/diversity/accommodations)
