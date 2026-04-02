@@ -40,10 +40,11 @@ There is no specific textbook for the class. The course will draw on materials f
 
 | Component | USP 410 | USP 510 |
 | :---- | :---- | :---- |
-| DataCamp exercises (5 x 10pts / 5 x 7pts) | 50% | 35% |
+| DataCamp exercises (4 x 5pts) | 20% | 20% |
 | Data science show & tell (2 x 5pts) | 10% | 10% |
-| Final product | 30% | 40% |
-| Project presentation | 10% | 15% |
+| Assignments | 30% | 20% |
+| Project presentation | 10% | 10% |
+| Project report | 30% | 40% |
 | **Total** | **100%** | **100%** |
 
 **DataCamp exercises**: Each DataCamp course is approximately 2-4 hours and you will have two weeks to complete each one.
@@ -55,6 +56,11 @@ There is no specific textbook for the class. The course will draw on materials f
 * **USP 410 (undergraduate)**: Projects should demonstrate competency in the core skills covered in class — data cleaning, visualization, and presentation of findings using at least one dataset relevant to an urban issue.
 * **USP 510 (graduate)**: Projects are expected to go beyond the core skills and demonstrate a higher level of analytical rigor. This includes integrating multiple data sources, applying spatial analysis or API-sourced data, and providing deeper interpretation of results that connects findings to relevant urban policy or planning contexts.
 
+**Assignments**: Both assignments use Oregon Department of Transportation (ODOT) crash data. Use of AI tools such as coding agents (e.g., Claude Code, GitHub Copilot, Cursor) is encouraged and recommended — these assignments are an opportunity to practice the AI-assisted data science workflow introduced in class.
+
+* **Assignment 1 — Exploring ODOT Crash Data**: Use ODOT's crash data to investigate questions of your choosing. Example questions include: Does the spring Daylight Saving Time change increase crashes? Do pedestrian fatalities exhibit a nighttime pattern similar to what was [reported by the New York Times in 2023](https://www.nytimes.com/interactive/2023/12/11/upshot/nighttime-deaths.html)? You are free to explore other questions that interest you. Your submission should include a Quarto or Jupyter notebook with clear visualizations and a written narrative explaining your findings.
+* **Assignment 2 — Interactive Crash Map**: ODOT provides a basic [fatal crash map viewer](https://www.oregon.gov/odot/Data/Pages/Initial-Fatal-Info-Viewer.aspx), but it is a general-purpose data browser. Your task is to create an interactive map (using `folium`, `plotly`, `streamlit`, or a similar library) that goes beyond data browsing — it should have a specific point of view, question, or audience. Example directions include: Which Portland corridors (e.g., 82nd Ave, Powell Blvd) are the most dangerous for pedestrians, and has that changed over time? Are crash hotspots concentrated in lower-income communities or communities of color? Where are the most dangerous intersections near schools, and what does a "safe routes" map look like for parents? How do crash patterns shift across the hours of the day — can you animate a 24-hour cycle to reveal when and where risk peaks? You are free to pursue other questions. Deploy or export your map as a standalone HTML file.
+
 ## **AI Policy**
 
 This course teaches you to work with AI tools as part of the data science workflow. However, different assignments have different goals, and the AI policy reflects that:
@@ -62,6 +68,8 @@ This course teaches you to work with AI tools as part of the data science workfl
 **DataCamp exercises — AI tools are not permitted.** These exercises build foundational skills. Using ChatGPT, Copilot, or other AI assistants to complete them undermines the learning process. You need to develop the mental models that make you an effective user of AI tools later.
 
 **Show & tell — AI may be used for research only.** You may use AI tools to help discover examples of data science projects, but your written explanation and in-class discussion should reflect your own understanding and judgment.
+
+**Assignments — AI use is encouraged and recommended.** You may (and are encouraged to) use AI coding agents and assistants to help with data processing, analysis, visualization, and writing code. Include a brief note describing which AI tools you used and for what tasks. You must understand and be able to explain any code or analysis in your submission.
 
 **Final project — AI use is encouraged, with disclosure.** Using AI tools for your project mirrors real-world data science practice. The following requirements apply:
 
@@ -78,7 +86,7 @@ This course teaches you to work with AI tools as part of the data science workfl
 | W3 | 04/16 | All about data: Data import/export, cleaning & processing | Yu & Barter, [Chapter 4: Data Preparation](https://vdsbook.com/04-data-prep); McKinney, [Chapters 6-8](https://wesmckinney.com/book/accessing-data) |
 | W4 | 04/23 | Workflow & project management | Yu & Barter, [Chapter 3: Setting Up Your Data Science Project](https://vdsbook.com/03-project-setup); Turrell, [Workflow chapters](https://aeturrell.github.io/python4DS/) |
 | W5 | 04/30 | Exploring and visualizing data | Yu & Barter, [Chapter 5: Exploratory Data Analysis](https://vdsbook.com/05-eda); Turrell, [Visualize chapter](https://aeturrell.github.io/python4DS/visualise.html) |
-| W6 | 05/07 | Reproducible research/work; Quarto & Jupyter Notebooks | Turrell, [Quarto chapter](https://aeturrell.github.io/python4DS/quarto.html); [Quarto for Python](https://quarto.org/docs/get-started/hello/jupyter.html) |
+| W6 | 05/07 | Reproducible research/work; Quarto & Jupyter Notebooks | Turrell, [Quarto for Python](https://aeturrell.github.io/python4DS/quarto.html); [jupyter](https://quarto.org/docs/get-started/hello/jupyter.html) |
 | W7 | 05/14 | Working with spatial data and maps | Rey et al., [Chapters 1-4](https://geographicdata.science/book/notebooks/01_geo_thinking.html) |
 | W8 | 05/21 | Accessing public data from the web and via APIs | [censusdis documentation](https://censusdis.readthedocs.io/); [Web Scraping with BeautifulSoup](https://realpython.com/beautiful-soup-web-scraper-python/) |
 | W9 | 05/28 | Developing infographics and dashboard | [Ultimate Infographic Design Guide](https://venngage.com/blog/infographic-design/); [Streamlit documentation](https://docs.streamlit.io/) |
@@ -92,19 +100,24 @@ This course teaches you to work with AI tools as part of the data science workfl
 | DC1 | [Introduction to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science) | 4h | W1 (04/02) | W3 (04/16) |
 | DC2 | [Data Manipulation with pandas](https://www.datacamp.com/courses/data-manipulation-with-pandas) | 4h | W3 (04/16) | W5 (04/30) |
 | DC3 | [Intro to Data Visualization with Seaborn](https://www.datacamp.com/courses/introduction-to-data-visualization-with-seaborn) | 4h | W5 (04/30) | W7 (05/14) |
-| DC4 | [Introduction to APIs in Python](https://www.datacamp.com/courses/introduction-to-apis-in-python) | 2h | W8 (05/21) | W9 (05/28) |
-| DC5 | [Working with Geospatial Data in Python](https://www.datacamp.com/courses/working-with-geospatial-data-in-python) | 4h | W7 (05/14) | W9 (05/28) |
+| DC4 | [Working with Geospatial Data in Python](https://www.datacamp.com/courses/working-with-geospatial-data-in-python) | 4h | W7 (05/14) | W9 (05/28) |
+
+### Assignment Schedule
+
+| # | Assignment | Assigned | Due |
+| :---- | :---- | :---- | :---- |
+| A1 | Exploring ODOT Crash Data | W2 (04/09) | W4 (04/23) |
+| A2 | Interactive Crash Map | W6 (05/07) | W8 (05/21) |
 
 ### Project Milestones
 
 | Milestone | Due |
 | :---- | :---- |
 | Project idea | W3 (04/16) |
-| Team formation | W4 (04/23) |
 | Project proposal (1 page) | W6 (05/07) |
 | Progress update | W8 (05/21) |
 | Project presentation | W11 (06/11) |
-| Final project submission | 06/15 (Monday) |
+| Final project submission | W11 06/12 |
 
 ## **Resources**
 
