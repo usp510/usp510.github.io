@@ -178,24 +178,16 @@ Based on Yu & Barter, *Veridical Data Science*, Chapter 2
 
 A **six-stage framework** for how data science projects progress
 
-```mermaid
-flowchart LR
-    A["1. Problem\nFormulation &\nData Collection"] --> B["2. Data Cleaning\n& EDA"]
-    B --> C["3. Intrinsic\nStructures"]
-    B --> D["4. Prediction &\nInference"]
-    C --> D
-    D --> E["5. Evaluation\nof Results"]
-    E --> F["6. Communication"]
-    E -.->|iterate| B
-    F -.->|iterate| A
-    style C fill:#f9f,stroke:#333,stroke-dasharray: 5 5
-    style D fill:#f9f,stroke:#333,stroke-dasharray: 5 5
-```
+<div class="flex justify-center mt-4">
+  <img
+    src="https://vdsbook.com/Figures-External/intro/data_science_life_cycle.png"
+    alt="Data Science Life Cycle"
+    style="max-height: 400px; width: auto;"
+  />
+</div>
 
-<div class="text-sm mt-2">
-
-Stages 3 & 4 (dashed) are optional depending on the research question
-
+<div class="text-xs mt-2 opacity-75">
+Source: Yu & Barter, <em>Veridical Data Science</em>, <a href="https://vdsbook.com/">vdsbook.com</a>
 </div>
 
 <!--
