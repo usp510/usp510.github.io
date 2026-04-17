@@ -391,21 +391,14 @@ Based on Downey, *Think Python*, Chapter 1
 
 Programming combines features from:
 
-<v-clicks>
 
 - **Mathematics** — formal notation, abstract reasoning
 - **Engineering** — building things that work, testing and debugging
 - **Natural science** — observing behavior, forming hypotheses, experimenting
 
-</v-clicks>
-
 <br>
 
-<v-click>
-
 > The most important skill is **learning to experiment** — try things, break things, read error messages, and try again.
-
-</v-click>
 
 ---
 
@@ -422,16 +415,12 @@ Python as a calculator:
 7 ** 2         # Exponentiation → 49
 ```
 
-<v-click>
-
 **Order of operations**: same as math (PEMDAS)
 
 ```python
 (12 + 5) * 6   # → 102  (parentheses first)
 12 + 5 * 6     # → 42   (multiplication before addition)
 ```
-
-</v-click>
 
 ---
 
@@ -445,18 +434,12 @@ type(42.0)     # → float   (floating point — decimals)
 type('hello')  # → str     (string — text)
 ```
 
-<v-click>
-
 **Type conversion**:
 ```python
 int(42.9)      # → 42     (truncates, does not round!)
 float(42)      # → 42.0
 str(42)        # → '42'
 ```
-
-</v-click>
-
-<v-click>
 
 **Watch out**: division always returns a float
 
