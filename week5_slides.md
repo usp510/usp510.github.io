@@ -170,52 +170,6 @@ sns.histplot(df, x="HOUR", bins=24)
 layout: two-cols
 ---
 
-# Boxplots
-
-Compact group summary — median, IQR, whiskers, outliers.
-
-```python
-sns.boxplot(df, x="SEV", y="TOT_INJ_CNT",
-            order=["PDO", "Injury", "Fatal"])
-```
-
-<br>
-
-Boxplot hides multimodality. Order matters — sort by median, not alphabetical.
-
-::right::
-
-<div class="pl-4 pt-2 flex justify-center">
-  <img src="./slides_assets/week5/box_severity.png" alt="Boxplot of injuries by severity" style="max-height: 380px; width: 100%; object-fit: contain;" />
-</div>
-
----
-layout: two-cols
----
-
-# Violin Plots
-
-Same as box plus density shape — reveals multimodality.
-
-```python
-sns.violinplot(df, x="SEV", y="TOT_INJ_CNT",
-               inner="quartile")
-```
-
-<br>
-
-Use `stripplot` / `swarmplot` for small `n` to show every point.
-
-::right::
-
-<div class="pl-4 pt-2 flex justify-center">
-  <img src="./slides_assets/week5/violin_severity.png" alt="Violin plot of injuries by severity" style="max-height: 380px; width: 100%; object-fit: contain;" />
-</div>
-
----
-layout: two-cols
----
-
 # Categorical Variables
 
 Counts and proportions.
@@ -290,6 +244,52 @@ Sort categories by median, not alphabetical. Reader sees the story faster.
 
 <div class="pl-4 pt-2 flex justify-center">
   <img src="./slides_assets/week5/box_weather_injuries.png" alt="Boxplot of injuries by weather" style="max-height: 380px; width: 100%; object-fit: contain;" />
+</div>
+
+---
+layout: two-cols
+---
+
+# Boxplots
+
+Compact group summary — median, IQR, whiskers, outliers.
+
+```python
+sns.boxplot(df, x="SEV", y="TOT_INJ_CNT",
+            order=["PDO", "Injury", "Fatal"])
+```
+
+<br>
+
+Boxplot hides multimodality. Order matters — sort by median, not alphabetical.
+
+::right::
+
+<div class="pl-4 pt-2 flex justify-center">
+  <img src="./slides_assets/week5/box_severity.png" alt="Boxplot of injuries by severity" style="max-height: 380px; width: 100%; object-fit: contain;" />
+</div>
+
+---
+layout: two-cols
+---
+
+# Violin Plots
+
+Same as box plus density shape — reveals multimodality.
+
+```python
+sns.violinplot(df, x="SEV", y="TOT_INJ_CNT",
+               inner="quartile")
+```
+
+<br>
+
+Use `stripplot` / `swarmplot` for small `n` to show every point.
+
+::right::
+
+<div class="pl-4 pt-2 flex justify-center">
+  <img src="./slides_assets/week5/violin_severity.png" alt="Violin plot of injuries by severity" style="max-height: 380px; width: 100%; object-fit: contain;" />
 </div>
 
 ---
