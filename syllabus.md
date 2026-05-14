@@ -89,7 +89,7 @@ This course teaches you to work with AI tools as part of the data science workfl
 | W4 | 04/23 | Workflow & project management ([Demo runbook](week4_demo.md)) | Yu & Barter, [Chapter 3: Setting Up Your Data Science Project](https://vdsbook.com/03-project-setup); Turrell, [Workflow chapters](https://aeturrell.github.io/python4DS/) |
 | W5 | 04/30 | Exploring and visualizing data ([Demo notebook](week5_eda_demo.ipynb)) | Yu & Barter, [Chapter 5: Exploratory Data Analysis](https://vdsbook.com/05-eda); Turrell, [Visualize chapter](https://aeturrell.github.io/python4DS/visualise.html) |
 | W6 | 05/07 | Reproducible research/work; Quarto & Jupyter Notebooks | Turrell, [Quarto for Python](https://aeturrell.github.io/python4DS/quarto.html); [jupyter](https://quarto.org/docs/get-started/hello/jupyter.html) |
-| W7 | 05/14 | Working with spatial data and maps | Rey et al., [Chapters 1-4](https://geographicdata.science/book/notebooks/01_geo_thinking.html) |
+| W7 | 05/14 | Working with spatial data and maps ([Demo notebook](week7_maps_demo.ipynb)) | Rey et al., [Chapters 1-4](https://geographicdata.science/book/notebooks/01_geo_thinking.html) |
 | W8 | 05/21 | Accessing public data from the web and via APIs | [censusdis documentation](https://censusdis.readthedocs.io/); [Web Scraping with BeautifulSoup](https://realpython.com/beautiful-soup-web-scraper-python/) |
 | W9 | 05/28 | Developing infographics and dashboard | [Ultimate Infographic Design Guide](https://venngage.com/blog/infographic-design/); [Streamlit documentation](https://docs.streamlit.io/) |
 | W10 | 06/04 | Project workshop | |
